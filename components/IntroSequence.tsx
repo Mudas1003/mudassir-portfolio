@@ -245,7 +245,7 @@ export default function IntroSequence({
   const [scene, setScene] = useState(0);
 
   useEffect(() => {
-    const durations = [2500, 3500, 3000, 3000, 2600, 1800];
+    const durations = [2000, 3000, 3000, 3000, 2600, 1800];
     const timers: ReturnType<typeof setTimeout>[] = [];
 
     let elapsed = 300;
